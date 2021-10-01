@@ -9,7 +9,7 @@ public class EmployeeController {
 
     @GetMapping("/employee/{id}")
     public EmployeeResponse getById(@PathVariable String id) {
-        return new EmployeeResponse(Integer.parseInt(id), "TEST-Nekko");
+        return new EmployeeResponse(Integer.parseInt(id), "Nekko");
     }
 
 }
